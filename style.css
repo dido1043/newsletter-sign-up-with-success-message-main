@@ -1,0 +1,56 @@
+@import url('https://fonts.google.com/specimen/Roboto');
+
+body {
+    background-color: hsl(235, 18%, 26%);
+    font-family: 'Alkatra', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+#container {
+
+    background-color: white;
+    width: 700px;
+    height: 380px;
+    border-radius: 5%;
+}
+
+#container #content {
+    padding: 30px 30px;
+
+}
+
+img {
+    position: absolute;
+    top: 26px;
+    left: 460px;
+    align-items: flex-end;
+}
+
+#container input {
+    width: 210px;
+    height: 20px;
+    margin-bottom: 5px;
+    border: 0.5px black solid;
+}
+
+#container button {
+    width: 220px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(4, 100%, 67%);
+    color: white;
+}
+
+#container button:hover {
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    width: 225px;
+    height: 40px;
+    transition: 0.5s ease;
+}
+
+#container ul li {
+    list-style-type: none;
+}
