@@ -34,7 +34,7 @@ img {
     border: 0.5px black solid;
 }
 
-#container button {
+#container #submit{
     width: 220px;
     height: 40px;
     border: none;
@@ -43,7 +43,7 @@ img {
     color: white;
 }
 
-#container button:hover {
+#container #submit:hover {
     background-color: hsl(234, 29%, 20%);
     color: white;
     width: 225px;
