@@ -54,3 +54,16 @@ img {
 #container ul li {
     list-style-type: none;
 }
+
+#success div{
+    margin-top: 100px;
+    background-color: white;
+    width: 700px;
+    height: 380px;
+    border-radius: 5%;
+    text-align: center;
+}
+#success svg{
+    
+    align-items: center;
+}
